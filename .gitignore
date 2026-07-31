@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.log
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Trained model artifacts / data are generated locally, not versioned
+models/*
+!models/.gitkeep
+data/*
+!data/.gitkeep
